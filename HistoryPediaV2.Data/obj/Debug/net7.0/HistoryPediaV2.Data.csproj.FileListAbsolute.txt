@@ -1,0 +1,12 @@
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.csproj.AssemblyReference.cache
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.AssemblyInfoInputs.cache
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.AssemblyInfo.cs
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.csproj.CoreCompileInputs.cache
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/bin/Debug/net7.0/HistoryPediaV2.Data.deps.json
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/bin/Debug/net7.0/HistoryPediaV2.Data.dll
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/bin/Debug/net7.0/HistoryPediaV2.Data.pdb
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.dll
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/refint/HistoryPediaV2.Data.dll
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.pdb
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/ref/HistoryPediaV2.Data.dll

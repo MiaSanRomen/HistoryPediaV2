@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/HistoryPediaV2.MVC.props" />
+</Project>

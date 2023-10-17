@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/HistoryPediaV2.Data.csproj": {}
+  },
+  "projects": {
+    "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/HistoryPediaV2.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/HistoryPediaV2.Data.csproj",
+        "projectName": "HistoryPediaV2.Data",
+        "projectPath": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/HistoryPediaV2.Data.csproj",
+        "packagesPath": "/home/roman/.nuget/packages/",
+        "outputPath": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/roman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.atol.capital/api/v4/projects/12/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.112/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
