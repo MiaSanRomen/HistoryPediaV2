@@ -1,8 +1,159 @@
 {
   "version": 2,
-  "dgSpecHash": "+F6QpSvuqLJ8hBYv3JWGfAdgU7UvfX8aF/f1rfrJV7INsMxLLO4HYHUjSS9p/LsVIKR67XRswB1T0tGORPnOPA==",
+  "dgSpecHash": "V7S8/WVLoHdASWUVB0P1Gg8kiZA4lqijOuE/8l/fXhiftDNDzeCwGB1LeY3+KMCsTkTtdeowubnw3zdr3Ab+hQ==",
   "success": true,
   "projectFilePath": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Core/HistoryPediaV2.Core.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "/home/roman/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/roman/.nuget/packages/entityframework/6.1.0/entityframework.6.1.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnet.identity.aspnetcorecompat/0.3.4/microsoft.aspnet.identity.aspnetcorecompat.0.3.4.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnet.identity.core/2.2.1/microsoft.aspnet.identity.core.2.2.1.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnet.identity.entityframework/2.2.1/microsoft.aspnet.identity.entityframework.2.2.1.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.12/microsoft.aspnetcore.cryptography.internal.7.0.12.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/7.0.12/microsoft.aspnetcore.cryptography.keyderivation.7.0.12.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnetcore.dataprotection/2.0.3/microsoft.aspnetcore.dataprotection.2.0.3.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnetcore.dataprotection.abstractions/2.0.3/microsoft.aspnetcore.dataprotection.abstractions.2.0.3.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnetcore.dataprotection.extensions/2.0.3/microsoft.aspnetcore.dataprotection.extensions.2.0.3.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnetcore.hosting.abstractions/2.0.3/microsoft.aspnetcore.hosting.abstractions.2.0.3.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnetcore.hosting.server.abstractions/2.0.3/microsoft.aspnetcore.hosting.server.abstractions.2.0.3.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.0.3/microsoft.aspnetcore.http.abstractions.2.0.3.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnetcore.http.features/2.0.3/microsoft.aspnetcore.http.features.2.0.3.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/7.0.12/microsoft.aspnetcore.identity.entityframeworkcore.7.0.12.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.data.sqlite.core/7.0.12/microsoft.data.sqlite.core.7.0.12.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.entityframeworkcore/7.0.12/microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.12/microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.12/microsoft.entityframeworkcore.analyzers.7.0.12.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.12/microsoft.entityframeworkcore.relational.7.0.12.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.entityframeworkcore.sqlite/7.0.12/microsoft.entityframeworkcore.sqlite.7.0.12.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/7.0.12/microsoft.entityframeworkcore.sqlite.core.7.0.12.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.configuration.fileextensions/7.0.0/microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.configuration.json/7.0.0/microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.dependencymodel/7.0.0/microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.fileproviders.physical/7.0.0/microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.hosting.abstractions/2.0.3/microsoft.extensions.hosting.abstractions.2.0.3.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.identity.core/7.0.12/microsoft.extensions.identity.core.7.0.12.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.identity.stores/7.0.12/microsoft.extensions.identity.stores.7.0.12.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.owin/3.0.1/microsoft.owin.3.0.1.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.owin.security/3.0.1/microsoft.owin.security.3.0.1.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.owin.security.cookies/3.0.1/microsoft.owin.security.cookies.3.0.1.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.owin.security.interop/2.0.4/microsoft.owin.security.interop.2.0.4.nupkg.sha512",
+    "/home/roman/.nuget/packages/microsoft.win32.registry/4.4.0/microsoft.win32.registry.4.4.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/owin/1.0.0/owin.1.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.4/sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
+    "/home/roman/.nuget/packages/sqlitepclraw.core/2.1.4/sqlitepclraw.core.2.1.4.nupkg.sha512",
+    "/home/roman/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.4/sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
+    "/home/roman/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.4/sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "/home/roman/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/roman/.nuget/packages/system.security.accesscontrol/4.4.0/system.security.accesscontrol.4.4.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/system.security.cryptography.xml/4.4.2/system.security.cryptography.xml.4.4.2.nupkg.sha512",
+    "/home/roman/.nuget/packages/system.security.principal.windows/4.4.0/system.security.principal.windows.4.4.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/home/roman/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EntityFramework 6.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Identity.AspNetCoreCompat 0.3.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Identity.AspNetCoreCompat",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Identity.Core",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Identity.EntityFramework 2.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Identity.EntityFramework",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin.Security 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin.Security",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin.Security.Cookies 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin.Security.Cookies",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin.Security.Interop 2.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin.Security.Interop",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Owin",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

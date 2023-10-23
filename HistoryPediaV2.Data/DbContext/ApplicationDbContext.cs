@@ -19,8 +19,8 @@ public class ApplicationDbContext : IdentityDbContext<User>
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        modelBuilder.ApplyConfiguration(new RoleConfiguration());
         modelBuilder.ApplyConfiguration(new ArticlesConfiguration());
         modelBuilder.ApplyConfiguration(new BlocksInfoConfiguration());
+        modelBuilder.ApplyConfiguration(new PicturesConfiguration());
     }
 }

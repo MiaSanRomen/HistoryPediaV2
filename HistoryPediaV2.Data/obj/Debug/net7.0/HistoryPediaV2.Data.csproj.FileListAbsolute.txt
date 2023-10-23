@@ -10,3 +10,5 @@
 /home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/refint/HistoryPediaV2.Data.dll
 /home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.pdb
 /home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/ref/HistoryPediaV2.Data.dll
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/bin/Debug/net7.0/HistoryPediaV2.Data.runtimeconfig.json
+/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.genruntimeconfig.cache

@@ -8,14 +8,18 @@ public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<Applicati
 {
     public ApplicationDbContext CreateDbContext(string[] args)
     {
+        var path = Path.GetDirectoryName(
+            Directory.GetParent(
+                Directory.GetCurrentDirectory())?.Parent?.FullName)
+                   + "//HistoryPediaV2//HistoryPediaV2//HistoryPediaV2.MVC//appsettings.json";
         IConfiguration configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+            .AddJsonFile(path, optional: false, reloadOnChange: true)
             .Build();
 
         var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-        var connection = configuration.GetConnectionString("HotelListingDbConnectionString");
-        optionsBuilder.UseSqlServer(connection);
+        var connection = configuration.GetConnectionString("DefaultConnection");
+        optionsBuilder.UseSqlite(connection);
 
         return new ApplicationDbContext(optionsBuilder.Options);
     }
