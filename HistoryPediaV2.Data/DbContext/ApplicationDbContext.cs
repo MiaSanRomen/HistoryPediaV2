@@ -7,6 +7,7 @@ namespace HistoryPediaV2.Data.DbContext;
 
 public class ApplicationDbContext : IdentityDbContext<User>
 {
+    //todo use proper db
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {

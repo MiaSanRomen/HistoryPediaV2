@@ -1,3 +1,5 @@
+using HistoryPediaV2.Core.Configurations;
+using HistoryPediaV2.Core.Repositories;
 using HistoryPediaV2.Data.DbContext;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +16,10 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddAutoMapper(typeof(MapperConfig));
+
+builder.Services.AddScoped<IArticlesRepository, ArticlesRepository>();
 
 var app = builder.Build();
 

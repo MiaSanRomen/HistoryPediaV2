@@ -13,6 +13,98 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Army1.jpg",
+      "PackagePath": "staticwebassets/images/Army1.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Army2.jpg",
+      "PackagePath": "staticwebassets/images/Army2.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Army3.jpg",
+      "PackagePath": "staticwebassets/images/Army3.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Army4.jpg",
+      "PackagePath": "staticwebassets/images/Army4.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/ArmyIco.jpg",
+      "PackagePath": "staticwebassets/images/ArmyIco.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Byzant1.jpg",
+      "PackagePath": "staticwebassets/images/Byzant1.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Byzant2.jpg",
+      "PackagePath": "staticwebassets/images/Byzant2.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/ByzantIco.png",
+      "PackagePath": "staticwebassets/images/ByzantIco.png"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Carthage1.jpg",
+      "PackagePath": "staticwebassets/images/Carthage1.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Carthage2.jpg",
+      "PackagePath": "staticwebassets/images/Carthage2.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/CarthageIco.png",
+      "PackagePath": "staticwebassets/images/CarthageIco.png"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Def1.jpg",
+      "PackagePath": "staticwebassets/images/Def1.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/DefIco.png",
+      "PackagePath": "staticwebassets/images/DefIco.png"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Punic1.jpg",
+      "PackagePath": "staticwebassets/images/Punic1.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Punic2.jpg",
+      "PackagePath": "staticwebassets/images/Punic2.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Punic3.jpg",
+      "PackagePath": "staticwebassets/images/Punic3.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/PunicIco.jpg",
+      "PackagePath": "staticwebassets/images/PunicIco.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Republic1.jpg",
+      "PackagePath": "staticwebassets/images/Republic1.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/Republic2.jpg",
+      "PackagePath": "staticwebassets/images/Republic2.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/RepublicIco.png",
+      "PackagePath": "staticwebassets/images/RepublicIco.png"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/RomanEmp1.png",
+      "PackagePath": "staticwebassets/images/RomanEmp1.png"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/RomanEmp2.jpg",
+      "PackagePath": "staticwebassets/images/RomanEmp2.jpg"
+    },
+    {
+      "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/images/RomanEmpIco.png",
+      "PackagePath": "staticwebassets/images/RomanEmpIco.png"
+    },
+    {
       "Id": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

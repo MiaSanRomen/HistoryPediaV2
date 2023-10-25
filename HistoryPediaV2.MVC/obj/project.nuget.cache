@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wWau8pu7tXPSU82fIbZnYATFKK9RYz751sM9IVpFz50YC500O3Ih6ZUB0QURDMGCGN7FJFgM628mMD/VaEDTnQ==",
+  "dgSpecHash": "qG5H79ZADnCx4NrL3Z35c29D7o5dbzBuqaQXGZkgJCzLf/uZegL9sKY40Gx9XwMiuJ8+kQ69MThkA5Dtq/vrMQ==",
   "success": true,
   "projectFilePath": "/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.MVC/HistoryPediaV2.MVC.csproj",
   "expectedPackageFiles": [
     "/home/roman/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/roman/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/roman/.nuget/packages/entityframework/6.1.0/entityframework.6.1.0.nupkg.sha512",
     "/home/roman/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/roman/.nuget/packages/microsoft.aspnet.identity.aspnetcorecompat/0.3.4/microsoft.aspnet.identity.aspnetcorecompat.0.3.4.nupkg.sha512",
