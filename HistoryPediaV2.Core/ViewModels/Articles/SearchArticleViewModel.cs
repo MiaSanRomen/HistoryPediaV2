@@ -4,7 +4,7 @@ namespace HistoryPediaV2.Core.ViewModels.Articles
 {
     public class SearchArticleViewModel
     {
-        public User User { get; set; }
+        public string SearchText { get; set; }
         public List<Article> Articles { get; set; }
     }
 }

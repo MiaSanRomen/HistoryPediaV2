@@ -9,7 +9,7 @@ namespace HistoryPediaV2.Core.Repositories
     public abstract class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         protected readonly ApplicationDbContext Context;
-        private readonly IMapper _mapper;
+        protected readonly IMapper _mapper;
         
         public GenericRepository(ApplicationDbContext context, IMapper mapper)
         {
@@ -27,7 +27,7 @@ namespace HistoryPediaV2.Core.Repositories
             return _mapper.Map<TResult>(entity);
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(long id)
         {
             var entity = await GetAsync(id);
             if(entity is null)
@@ -46,7 +46,7 @@ namespace HistoryPediaV2.Core.Repositories
                 .ToListAsync();
         }
 
-        public async Task<TResult> GetAsync<TResult>(int? id)
+        public async Task<TResult> GetAsync<TResult>(long? id)
         {
             var result = await Context.Set<T>().FindAsync(id);
             if (result is null)
@@ -57,7 +57,7 @@ namespace HistoryPediaV2.Core.Repositories
             return _mapper.Map<TResult>(result);
         }
 
-        public async Task UpdateAsync<TSource>(int id, TSource source)
+        public async Task UpdateAsync<TSource>(long id, TSource source)
         {
             var entity = await GetAsync(id);
             if (entity is null)
@@ -70,20 +70,20 @@ namespace HistoryPediaV2.Core.Repositories
             await Context.SaveChangesAsync();
         }
 
-        private async Task<T> AddAsync(T entity)
+        protected async Task<T> AddAsync(T entity)
         {
             await Context.AddAsync(entity);
             await Context.SaveChangesAsync();
             return entity;
         }
 
-        private async Task<bool> Exists(int id)
+        protected async Task<bool> Exists(long id)
         {
             var entity = await GetAsync(id);
             return entity is not null;
         }
 
-        private async Task<T?> GetAsync(int? id)
+        protected async Task<T?> GetAsync(long? id)
         {
             if(id is null)
             {
@@ -93,12 +93,12 @@ namespace HistoryPediaV2.Core.Repositories
             return await Context.Set<T>().FindAsync(id);
         }
 
-        private async Task<List<T>> GetAllAsync()
+        protected async Task<List<T>> GetAllAsync()
         {
             return await Context.Set<T>().ToListAsync();
         }
 
-        private async Task UpdateAsync(T entity)
+        protected async Task UpdateAsync(T entity)
         {
             Context.Update(entity);
             await Context.SaveChangesAsync();

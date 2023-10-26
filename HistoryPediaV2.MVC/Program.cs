@@ -1,6 +1,7 @@
 using HistoryPediaV2.Core.Configurations;
 using HistoryPediaV2.Core.Repositories;
 using HistoryPediaV2.Data.DbContext;
+using HistoryPediaV2.MVC.AppSetUps;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,7 +20,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddAutoMapper(typeof(MapperConfig));
 
-builder.Services.AddScoped<IArticlesRepository, ArticlesRepository>();
+builder.Services.RegisterRepositories();
 
 var app = builder.Build();
 
