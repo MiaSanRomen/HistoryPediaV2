@@ -1,0 +1,24 @@
+@model HistoryPediaV2.Data.Models.Picture
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<form asp-action="Edit" asp-controller="Pictures" enctype="multipart/form-data">
+    <div class="form-group my-4">
+        <h3 asp-for="PictureName" class="control-label">Image name</h3>
+        <input type="text" asp-for="PictureName" class="form-control shadow" />
+    </div>
+    <div class="form-group my-4">
+        <h3 asp-for="PictureText" class="control-label">Description</h3>
+        <input type="text" asp-for="PictureText" class="form-control shadow" />
+    </div>
+    <div class="form-group">
+        <h3 asp-for="Image" class="control-label">Image</h3>
+        <input type="file" asp-for="Image" class="form-control shadow" />
+    </div>
+    <div class="form-group m-5">
+        <input type="submit" value="Save picture" class="btn btn-outline-success col-12 shadow" />
+    </div>
+</form>

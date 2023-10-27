@@ -1,0 +1,34 @@
+@model HistoryPediaV2.Data.Models.BlockInfo
+
+@{
+    ViewBag.Title = "Removing the block";
+}
+
+<div class="row">
+    <div class="page-header" >
+        <h2>
+            Remove the block
+        </h2>
+    </div>
+</div>
+<div class="row">
+    <dl class="dl-horizontal p-4 shadow-lg" style="border-radius: 20px;">
+        <dt>Title</dt>
+        <dd>
+            @Html.DisplayFor(model => model.BlockName)
+        </dd>
+
+        <dt>Text</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Text)
+        </dd>
+    </dl>
+
+    <div>
+        <form asp-controller="Blocks" asp-action="Delete" method="post">
+            <div class="form-group">
+                <input type="submit" class="btn btn-outline-danger shadow btn-block my-2" value="Remove" />
+            </div>
+        </form>
+    </div>
+</div>

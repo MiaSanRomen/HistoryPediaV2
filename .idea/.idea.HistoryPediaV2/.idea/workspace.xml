@@ -9,36 +9,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b91a561-abf0-42a7-b717-66dab87cd21a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/Repositories/IPicturesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/Repositories/PicturesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/AppSetUps/CustomDependencies.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/ViewComponents/ArticleCardViewComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Shared/Components/ArticleCard/Default.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/AdditionalServices/EmailService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/AdditionalServices/IEmailService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/Configurations/EmailConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/Configurations/IEmailConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/Repositories/BlocksRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/Repositories/IBlocksRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/ViewModels/Account/LoginViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/ViewModels/Account/RegisterViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Controllers/AccountController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Controllers/ArticlesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Controllers/BlocksController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Controllers/PicturesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Controllers/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Account/Login.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Account/Register.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Articles/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Blocks/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Blocks/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Pictures/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/User/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HistoryPediaV2/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HistoryPediaV2/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HistoryPediaV2/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HistoryPediaV2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HistoryPediaV2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/HistoryPediaV2.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/HistoryPediaV2.Core.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/Repositories/ArticlesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/Repositories/ArticlesRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/Repositories/GenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/Repositories/GenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/Repositories/IGenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/Repositories/IGenericRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/ViewModels/Articles/SearchArticleViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/ViewModels/Articles/SearchArticleViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/Repositories/IArticlesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/Repositories/IArticlesRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/bin/Debug/net7.0/HistoryPediaV2.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/bin/Debug/net7.0/HistoryPediaV2.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/bin/Debug/net7.0/HistoryPediaV2.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/bin/Debug/net7.0/HistoryPediaV2.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/HistoryPediaV2.Core.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/HistoryPediaV2.Core.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/HistoryPediaV2.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/HistoryPediaV2.Core.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/HistoryPediaV2.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/HistoryPediaV2.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/HistoryPediaV2.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/HistoryPediaV2.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/HistoryPediaV2.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/HistoryPediaV2.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/ref/HistoryPediaV2.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/ref/HistoryPediaV2.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/refint/HistoryPediaV2.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/Debug/net7.0/refint/HistoryPediaV2.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Data/bin/Debug/net7.0/HistoryPediaV2.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Data/bin/Debug/net7.0/HistoryPediaV2.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Data/bin/Debug/net7.0/HistoryPediaV2.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Data/bin/Debug/net7.0/HistoryPediaV2.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Data/obj/Debug/net7.0/HistoryPediaV2.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Data/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Data/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/HistoryPediaV2.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/HistoryPediaV2.Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.Core/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/AppSetUps/CustomDependencies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/AppSetUps/CustomDependencies.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Home/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Articles/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Home/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Articles/Edit.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Shared/Components/ArticleCard/Default.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Views/Shared/Components/ArticleCard/Default.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/bin/Debug/net7.0/HistoryPediaV2.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/bin/Debug/net7.0/HistoryPediaV2.Core.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/bin/Debug/net7.0/HistoryPediaV2.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/bin/Debug/net7.0/HistoryPediaV2.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/bin/Debug/net7.0/HistoryPediaV2.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/bin/Debug/net7.0/HistoryPediaV2.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/bin/Debug/net7.0/HistoryPediaV2.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/bin/Debug/net7.0/HistoryPediaV2.Data.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/bin/Debug/net7.0/HistoryPediaV2.MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/bin/Debug/net7.0/HistoryPediaV2.MVC.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/bin/Debug/net7.0/HistoryPediaV2.MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/bin/Debug/net7.0/HistoryPediaV2.MVC.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/obj/Debug/net7.0/HistoryPediaV2.MVC.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/obj/Debug/net7.0/HistoryPediaV2.MVC.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
@@ -48,7 +63,6 @@
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/obj/Debug/net7.0/HistoryPediaV2.MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/obj/Debug/net7.0/HistoryPediaV2.MVC.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/obj/Debug/net7.0/ref/HistoryPediaV2.MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/obj/Debug/net7.0/ref/HistoryPediaV2.MVC.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/obj/Debug/net7.0/refint/HistoryPediaV2.MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/obj/Debug/net7.0/refint/HistoryPediaV2.MVC.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HistoryPediaV2.MVC/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryPediaV2.MVC/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +78,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a1c1f114b3ef4ca68e13c4721dec187511200/09/5d25ad7c/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d1737df389ec4d03bc8848548684af152f800/a0/b87a3bc8/SignInManager`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6af49c8242666d946d953d39975a1794c0602a66d16e333b3f58e87f62f7716/PersonalDataAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/aacc74311ca994f12b71cddb22241be9d6654c65e94f5985c5488dee396916f/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HistoryPedia.Core/Class1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -88,7 +104,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/roman/RiderProjects/HistoryPediaV2/HistoryPediaV2/HistoryPediaV2.Data/app.db&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -153,7 +169,10 @@
       <workItem from="1698246171950" duration="1043000" />
       <workItem from="1698258418045" duration="4597000" />
       <workItem from="1698337440297" duration="1023000" />
-      <workItem from="1698356564405" duration="4740000" />
+      <workItem from="1698356564405" duration="5032000" />
+      <workItem from="1698392654735" duration="5452000" />
+      <workItem from="1698408259235" duration="8916000" />
+      <workItem from="1698422330595" duration="4132000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <option name="closed" value="true" />
@@ -179,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698263248818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dependencies grouping, view component, fixed repo">
+      <option name="closed" value="true" />
+      <created>1698361453094</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698361453094</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +246,8 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="Data project" />
     <MESSAGE value="Shown main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shown main page" />
+    <MESSAGE value="Dependencies grouping, view component, fixed repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependencies grouping, view component, fixed repo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -236,6 +264,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/HistoryPediaV2.MVC/Controllers/ArticlesController.cs</url>
+          <line>29</line>
+          <properties documentPath="$PROJECT_DIR$/HistoryPediaV2.MVC/Controllers/ArticlesController.cs" initialLine="29" containingFunctionPresentation="Method 'Edit'">
+            <startOffsets>
+              <option value="856" />
+            </startOffsets>
+            <endOffsets>
+              <option value="869" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

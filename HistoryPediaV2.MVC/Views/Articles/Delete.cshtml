@@ -1,0 +1,33 @@
+@model HistoryPediaV2.Data.Models.Article
+@{
+    ViewBag.Title = "Removing the article";
+}
+
+<div class="row">
+    <div class="page-header" >
+        <h2>
+            Remove the article
+        </h2>
+    </div>
+</div>
+<div class="row">
+    <dl class="dl-horizontal p-4 shadow-lg" style="border-radius: 20px;">
+        <dt>Title</dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>About</dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShirtInfo)
+        </dd>
+    </dl>
+
+    <div>
+        <form asp-controller="Articles" asp-action="Delete" method="post">
+            <div class="form-group">
+                <input type="submit" class="btn btn-outline-danger shadow btn-block my-2" value="Remove" />
+            </div>
+        </form>
+    </div>
+</div>

@@ -8,6 +8,7 @@ public static class CustomDependencies
     {
         services.AddScoped<IArticlesRepository, ArticlesRepository>();
         services.AddScoped<IPicturesRepository, PicturesRepository>();
+        services.AddScoped<IBlocksRepository, BlocksRepository>();
         return services;
     }
 }

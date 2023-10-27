@@ -1,0 +1,70 @@
+﻿@model HistoryPediaV2.Data.Models.Article
+@{
+    ViewBag.Title = "Editing article";
+}
+<form asp-action="edit" asp-controller="Articles" asp-route-id="@Model.ArticleId">
+    <div class="form-group my-4">
+        <h3 asp-for="Name" class="control-label">Title</h3>
+        <input type="text" asp-for="Name" class="form-control shadow" />
+    </div>
+    <div class="form-group my-4">
+        <h3 asp-for="ShirtInfo" class="control-label">About</h3>
+        <input type="text" asp-for="ShirtInfo" class="form-control shadow" />
+    </div>
+    <div class="form-group my-4">
+        <h3 asp-for="Info" class="control-label">Intro</h3>
+        <textarea type="text" asp-for="Info" class="form-control shadow" rows="10"></textarea> 
+    </div>
+    <div class="form-group my-4">
+        <h3 asp-for="PictureId" class="control-label">Image</h3>
+        @if (Model.PictureId != -1
+            && Model.Image is not null)
+        {
+            <div class="d-flex justify-content-between">
+                <h5>@Model.Image.PictureName</h5>
+                <a class="btn btn-outline-warning shadow-sm" asp-action="Edit" asp-controller="Pictures" asp-route-pictureId="@Model.PictureId">Edit an image</a>
+            </div>
+        }
+        else
+        {
+            <div class="d-flex justify-content-between">
+                <h5>No image selected</h5>
+                <a class="btn btn-outline-info btn-block shadow-sm" asp-action="Edit" asp-controller="Pictures">Add an image</a>
+            </div>
+        }
+        <input type="text" asp-for="PictureId" class="form-control disabled d-none" />
+    </div>
+    <h3 class="control-label mt-4">Blocks</h3>
+    <div class="col p-5 my-4 shadow" style="border-radius: 20px;">
+        <table class="table">
+            <tr>
+                <td>Paragraph</td>
+                <td>About</td>
+                <td></td>
+                <td></td>
+            </tr>
+            @if (Model.Blocks != null)
+            {
+                @foreach (var item in Model.Blocks)
+                {
+                    <tr>
+                        <div class="row">
+                            <td>@item.BlockName</td>
+                            <td>@item.Text</td>
+                            <td>
+                                <a asp-action="Edit" asp-controller="Blocks" class="btn btn-outline-warning shadow-sm" asp-route-id="@item.BlockInfoId">Edit</a>
+                            </td>
+                            <td>
+                                <a asp-action="Delete" asp-controller="Blocks" class="btn btn-outline-danger shadow-sm"  asp-route-id="@item.BlockInfoId">Remove</a>
+                            </td>
+                        </div>
+                    </tr>
+                }
+            }
+        </table>
+        <a class="btn btn-outline-info float-end shadow" asp-action="Edit" asp-controller="Blocks" asp-route-article="@Model">Add a paragraph</a>
+    </div>
+    <div class="form-group m-5">
+        <input type="submit" value="Save article" class="btn btn-outline-success col-12 shadow" />
+    </div>
+</form>

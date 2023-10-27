@@ -24,32 +24,6 @@ public class HomeController : Controller
         return View(articles);
     }
 
-    public async Task<IActionResult> Details(int id)
-    {
-        Article article = await _articlesRepository.GetAsync<Article>(id);
-        return View(article);
-    }
-
-    [Authorize]
-    public async Task<IActionResult> Edit(int id)
-    {
-        if (id != 0)
-        {
-            Article article = await _articlesRepository.GetAsync<Article>(id);
-            return View(article);
-        }
-        else
-        {
-            // Article article = new Article();
-            // article.Name = "New article";
-            // article.Blocks = DataClass.BlocksTempList;
-            // DataClass.TempArticle = article;
-            // return View(article);
-        }
-
-        return NotFound();
-    }
-
     public IActionResult Privacy()
     {
         return View();
@@ -61,5 +35,11 @@ public class HomeController : Controller
         var requestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
         _logger.Log(LogLevel.Error, "Error thrown: {errorId}", requestId);
         return View(new ErrorViewModel { RequestId = requestId});
+    }
+
+    [HttpPost]
+    public IActionResult Edit(BlockInfo blockInfo)
+    {
+        return RedirectToAction("Edit", "Articles");
     }
 }

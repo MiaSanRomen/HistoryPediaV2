@@ -1,0 +1,38 @@
+@model HistoryPediaV2.Data.Models.BlockInfo
+@{
+    ViewBag.Title = "Editing new information block";
+}
+<form asp-action="Edit" asp-controller="home" asp-route-id="@Model.BlockInfoId">
+    <div class="form-group my-4">
+        <h3 asp-for="BlockName" class="control-label">Title</h3>
+        <input type="text" asp-for="BlockName" class="form-control shadow" />
+    </div>
+    <div class="form-group my-4">
+        <h3 asp-for="Text" class="control-label">Text</h3>
+        <textarea type="text" asp-for="Text" class="form-control shadow" rows="10"></textarea>
+    </div>
+    <div class="form-group my-4">
+        <h3 asp-for="PictureId" class="control-label">Image</h3>
+        @if (Model.PictureId != -1
+            && Model.Image is not null)
+        {
+            <div class="d-flex justify-content-between">
+                <h5>@Model.Image.PictureName</h5>
+                <a class="btn btn-outline-warning shadow-sm" asp-action="Edit" asp-controller="Pictures" asp-route-pictureId="@Model.PictureId">Edit an image</a>
+            </div>
+        }
+        else
+        {
+            <div class="d-flex justify-content-between">
+                <h5>No image selected</h5>
+                <a class="btn btn-outline-info btn-block shadow-sm" asp-action="Edit" asp-controller="Pictures">Add an image</a>
+            </div>
+        }
+        <input type="text" asp-for="PictureId" class="form-control disabled d-none" />
+    </div>
+    <input type="text" asp-for="ArticleId" class="form-control d-none" />
+    <input type="text" asp-for="BlockInfoId" class="form-control d-none" />
+    <div class="form-group m-5">
+        <input type="submit" value="Save block" class="btn btn-outline-success col-12 shadow" />
+    </div>
+</form>

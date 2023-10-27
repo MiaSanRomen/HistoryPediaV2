@@ -1,6 +1,6 @@
 @model HistoryPediaV2.Data.Models.Article
 
-<div class="shadow-lg card col-lg-4 d-flex align-items-stretch p-2 m-2 w-25 ">
+<div class="shadow-lg card col-lg-4 d-flex align-items-stretch p-2 m-2 w-25 rounded-lg" style="border-radius: 20px;">
     @if (!string.IsNullOrEmpty(Model.Image?.Path))
     {
         <img class="card-img-top" alt="Bootstrap Thumbnail First" src="@Model.Image.Path">
@@ -20,6 +20,6 @@
         <p class="card-text mb-4"> 
             @Model.ShirtInfo
         </p>
-        <a class="btn btn-primary btn-block mt-auto shadow" asp-action="Details" asp-controller="Home" asp-route-id="@Model.ArticleId">Learn more</a>
+        <a class="btn btn-primary btn-block mt-auto shadow" asp-action="Details" asp-controller="Articles" asp-route-id="@Model.ArticleId">Learn more</a>
     </div>
 </div>
