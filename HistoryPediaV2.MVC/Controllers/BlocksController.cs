@@ -23,7 +23,7 @@ public class BlocksController: Controller
     {
         if (id != 0)
         {
-            BlockInfo block = await _blocksRepository.GetDetailsAsync(id);
+            var block = await _blocksRepository.GetEditDetailsAsync(id);
             return View(block);
         }
         else

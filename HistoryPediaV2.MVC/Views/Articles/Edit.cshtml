@@ -1,4 +1,4 @@
-﻿@model HistoryPediaV2.Data.Models.Article
+﻿@model HistoryPediaV2.Core.ViewModels.Articles.ArticleEditViewModel
 @{
     ViewBag.Title = "Editing article";
 }
@@ -9,7 +9,7 @@
     </div>
     <div class="form-group my-4">
         <h3 asp-for="ShirtInfo" class="control-label">About</h3>
-        <input type="text" asp-for="ShirtInfo" class="form-control shadow" />
+        <input type="text" asp-for="ShortInfo" class="form-control shadow" />
     </div>
     <div class="form-group my-4">
         <h3 asp-for="Info" class="control-label">Intro</h3>
@@ -49,7 +49,7 @@
                 {
                     <tr>
                         <div class="row">
-                            <td>@item.BlockName</td>
+                            <td>@item.Title</td>
                             <td>@item.Text</td>
                             <td>
                                 <a asp-action="Edit" asp-controller="Blocks" class="btn btn-outline-warning shadow-sm" asp-route-id="@item.BlockInfoId">Edit</a>

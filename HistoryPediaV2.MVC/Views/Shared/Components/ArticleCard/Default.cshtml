@@ -1,13 +1,13 @@
-@model HistoryPediaV2.Data.Models.Article
+@model HistoryPediaV2.Core.ViewModels.Articles.ArticleWithImageViewModel
 
 <div class="shadow-lg card col-lg-4 d-flex align-items-stretch p-2 m-2 w-25 rounded-lg" style="border-radius: 20px;">
     @if (!string.IsNullOrEmpty(Model.Image?.Path))
     {
         <img class="card-img-top" alt="Bootstrap Thumbnail First" src="@Model.Image.Path">
     }
-    else if(Model.Image?.Image is not null)
+    else if(Model.Image?.ImageBytes is not null)
     {
-        <img class="card-img-top" alt="Bootstrap Thumbnail First" src="data:image/jpeg;base64,@(Convert.ToBase64String(@Model.Image.Image))">
+        <img class="card-img-top" alt="Bootstrap Thumbnail First" src="data:image/jpeg;base64,@(Convert.ToBase64String(@Model.Image.ImageBytes))">
     }
     else
     {
@@ -18,7 +18,7 @@
             @Model.Name
         </h5>
         <p class="card-text mb-4"> 
-            @Model.ShirtInfo
+            @Model.ShortInfo
         </p>
         <a class="btn btn-primary btn-block mt-auto shadow" asp-action="Details" asp-controller="Articles" asp-route-id="@Model.ArticleId">Learn more</a>
     </div>

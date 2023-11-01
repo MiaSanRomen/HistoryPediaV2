@@ -1,10 +1,12 @@
-﻿using HistoryPediaV2.Data.Models;
+﻿using HistoryPediaV2.Core.ViewModels.Articles;
+using HistoryPediaV2.Data.Models;
 
 namespace HistoryPediaV2.Core.Repositories
 {
-    public interface IArticlesRepository : IGenericRepository<Article>
+    public interface IArticlesRepository : IGenericRepository<ArticleDetailsViewModel>
     {
-        Task<List<Article>> GetByNameAsync(string name);
-        Task<Article> GetDetailsAsync(long? id);
+        Task<SearchArticleViewModel> GetByNameAsync(string name);
+        Task<ArticleDetailsViewModel> GetDetailsAsync(long? id);
+        Task<ArticleEditViewModel> GetEditDetailsAsync(long? id);
     }
 }

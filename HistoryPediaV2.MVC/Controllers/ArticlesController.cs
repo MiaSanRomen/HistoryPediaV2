@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using HistoryPediaV2.Core.Repositories;
+using HistoryPediaV2.Core.ViewModels.Articles;
 using HistoryPediaV2.Data.Models;
 using HistoryPediaV2.MVC.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -18,44 +19,42 @@ public class ArticlesController: Controller
         _articlesRepository = articlesRepository;
     }
 
-    public async Task<IActionResult> Details(int id)
+    public async Task<IActionResult> Details(long id)
     {
-        Article article = await _articlesRepository.GetDetailsAsync(id);
+        var article = await _articlesRepository.GetDetailsAsync(id);
         return View(article);
     }
 
-    //[Authorize]
-    public async Task<IActionResult> Edit(int id)
+    [Authorize]
+    public async Task<IActionResult> Edit(long id)
     {
         if (id != -1)
         {
-            Article article = await _articlesRepository.GetDetailsAsync(id);
+            var article = await _articlesRepository.GetEditDetailsAsync(id);
             return View(article);
         }
         else
         {
-            // Article article = new Article();
-            // article.Name = "New article";
-            // article.Blocks = DataClass.BlocksTempList;
-            // DataClass.TempArticle = article;
-            // return View(article);
+            ArticleEditViewModel article = new ArticleEditViewModel(id,
+                "New article",
+                "Short description",
+                "Details",
+                -1);
             return View();
         }
 
         return NotFound();
     }
     
-    //[Authorize]
+    [Authorize]
     [HttpGet, ActionName("Delete")]
-    public async Task<IActionResult> ConfirmDelete(int id)
+    public async Task<IActionResult> ConfirmDelete(long id)
     {
         if (id != 0)
-        {
-            Article article = await _articlesRepository.GetAsync<Article>(id);
-            return View(article);
-        }
-
-        return NotFound();
+            return NotFound();
+        
+        Article article = await _articlesRepository.GetAsync<Article>(id);
+        return View(article);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

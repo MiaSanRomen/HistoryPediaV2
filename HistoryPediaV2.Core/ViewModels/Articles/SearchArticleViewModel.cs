@@ -1,10 +1,9 @@
-﻿using HistoryPediaV2.Data.Models;
+﻿using HistoryPediaV2.Core.ViewModels.Articles;
+using HistoryPediaV2.Data.Models;
 
-namespace HistoryPediaV2.Core.ViewModels.Articles
-{
-    public class SearchArticleViewModel
-    {
-        public string SearchText { get; set; }
-        public List<Article> Articles { get; set; }
-    }
-}
+namespace HistoryPediaV2.Core.ViewModels.Articles;
+    
+public sealed record SearchArticleViewModel(
+    string? SearchText,
+    List<ArticleWithImageViewModel> Articles);
+

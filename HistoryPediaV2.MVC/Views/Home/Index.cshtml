@@ -1,4 +1,4 @@
-﻿@model List<HistoryPediaV2.Data.Models.Article>
+﻿@model HistoryPediaV2.Core.ViewModels.Articles.SearchArticleViewModel
 @{
     ViewBag.Title = "Articles";
 }
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="row my-5 d-flex justify-content-between">
-                @foreach (var item in Model)
+                @foreach (var item in Model.Articles)
                 {
                     @await Component.InvokeAsync("ArticleCard", new { article =  item})
                 }
